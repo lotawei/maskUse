@@ -7,7 +7,14 @@
 //
 
 import UIKit
+public  var   imgfrm:CGRect = {
+    let    imgfrm = CGRect(x:0,y:65,width:UIScreen.main.bounds.size.width,height:UIScreen.main.bounds.size.height - 64)
+    return   imgfrm
+}()
 
+public   let  emitersize = CGSize(width:UIScreen.main.bounds.size.width,height:UIScreen.main.bounds.size.height - 64)
+
+public   let  maskorgpoint:CGPoint = CGPoint(x: 0, y: 64)
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {
 

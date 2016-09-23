@@ -12,6 +12,12 @@
 		ED8B40951D955B5900454FE6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ED8B40931D955B5900454FE6 /* Main.storyboard */; };
 		ED8B40971D955B5900454FE6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ED8B40961D955B5900454FE6 /* Assets.xcassets */; };
 		ED8B409A1D955B5900454FE6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ED8B40981D955B5900454FE6 /* LaunchScreen.storyboard */; };
+		ED8B40A71D955B8000454FE6 /* UIImage+ImageEffects.m in Sources */ = {isa = PBXBuildFile; fileRef = ED8B40A61D955B8000454FE6 /* UIImage+ImageEffects.m */; };
+		ED8B40A91D955B9F00454FE6 /* 遮罩副本.png in Resources */ = {isa = PBXBuildFile; fileRef = ED8B40A81D955B9F00454FE6 /* 遮罩副本.png */; };
+		ED8B40AB1D955BAA00454FE6 /* 背景图菊花.png in Resources */ = {isa = PBXBuildFile; fileRef = ED8B40AA1D955BAA00454FE6 /* 背景图菊花.png */; };
+		ED8B40AD1D955BB200454FE6 /* 雪花.png in Resources */ = {isa = PBXBuildFile; fileRef = ED8B40AC1D955BB200454FE6 /* 雪花.png */; };
+		ED8B40AF1D9563DF00454FE6 /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED8B40AE1D9563DF00454FE6 /* SecondViewController.swift */; };
+		ED8B40B11D9567FD00454FE6 /* maskgift.gif in Resources */ = {isa = PBXBuildFile; fileRef = ED8B40B01D9567FD00454FE6 /* maskgift.gif */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +28,14 @@
 		ED8B40961D955B5900454FE6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		ED8B40991D955B5900454FE6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		ED8B409B1D955B5900454FE6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ED8B40A41D955B7F00454FE6 /* maskUse-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "maskUse-Bridging-Header.h"; sourceTree = "<group>"; };
+		ED8B40A51D955B8000454FE6 /* UIImage+ImageEffects.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+ImageEffects.h"; sourceTree = "<group>"; };
+		ED8B40A61D955B8000454FE6 /* UIImage+ImageEffects.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+ImageEffects.m"; sourceTree = "<group>"; };
+		ED8B40A81D955B9F00454FE6 /* 遮罩副本.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "遮罩副本.png"; sourceTree = "<group>"; };
+		ED8B40AA1D955BAA00454FE6 /* 背景图菊花.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "背景图菊花.png"; sourceTree = "<group>"; };
+		ED8B40AC1D955BB200454FE6 /* 雪花.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "雪花.png"; sourceTree = "<group>"; };
+		ED8B40AE1D9563DF00454FE6 /* SecondViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
+		ED8B40B01D9567FD00454FE6 /* maskgift.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = maskgift.gif; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,12 +68,20 @@
 		ED8B408E1D955B5900454FE6 /* maskUse */ = {
 			isa = PBXGroup;
 			children = (
+				ED8B40B01D9567FD00454FE6 /* maskgift.gif */,
+				ED8B40A51D955B8000454FE6 /* UIImage+ImageEffects.h */,
+				ED8B40A61D955B8000454FE6 /* UIImage+ImageEffects.m */,
 				ED8B408F1D955B5900454FE6 /* AppDelegate.swift */,
 				ED8B40911D955B5900454FE6 /* ViewController.swift */,
+				ED8B40AE1D9563DF00454FE6 /* SecondViewController.swift */,
 				ED8B40931D955B5900454FE6 /* Main.storyboard */,
 				ED8B40961D955B5900454FE6 /* Assets.xcassets */,
+				ED8B40A81D955B9F00454FE6 /* 遮罩副本.png */,
+				ED8B40AA1D955BAA00454FE6 /* 背景图菊花.png */,
+				ED8B40AC1D955BB200454FE6 /* 雪花.png */,
 				ED8B40981D955B5900454FE6 /* LaunchScreen.storyboard */,
 				ED8B409B1D955B5900454FE6 /* Info.plist */,
+				ED8B40A41D955B7F00454FE6 /* maskUse-Bridging-Header.h */,
 			);
 			path = maskUse;
 			sourceTree = "<group>";
@@ -96,6 +118,7 @@
 				TargetAttributes = {
 					ED8B408B1D955B5900454FE6 = {
 						CreatedOnToolsVersion = 8.0;
+						LastSwiftMigration = 0800;
 						ProvisioningStyle = Automatic;
 					};
 				};
@@ -124,7 +147,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				ED8B409A1D955B5900454FE6 /* LaunchScreen.storyboard in Resources */,
+				ED8B40A91D955B9F00454FE6 /* 遮罩副本.png in Resources */,
+				ED8B40AD1D955BB200454FE6 /* 雪花.png in Resources */,
+				ED8B40B11D9567FD00454FE6 /* maskgift.gif in Resources */,
 				ED8B40971D955B5900454FE6 /* Assets.xcassets in Resources */,
+				ED8B40AB1D955BAA00454FE6 /* 背景图菊花.png in Resources */,
 				ED8B40951D955B5900454FE6 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -136,8 +163,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				ED8B40AF1D9563DF00454FE6 /* SecondViewController.swift in Sources */,
 				ED8B40921D955B5900454FE6 /* ViewController.swift in Sources */,
 				ED8B40901D955B5900454FE6 /* AppDelegate.swift in Sources */,
+				ED8B40A71D955B8000454FE6 /* UIImage+ImageEffects.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -258,10 +287,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				INFOPLIST_FILE = maskUse/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.lw.cn.maskUse;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "maskUse/maskUse-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
@@ -270,10 +302,12 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				INFOPLIST_FILE = maskUse/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.lw.cn.maskUse;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "maskUse/maskUse-Bridging-Header.h";
 				SWIFT_VERSION = 3.0;
 			};
 			name = Release;
@@ -297,6 +331,7 @@
 				ED8B40A01D955B5900454FE6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
